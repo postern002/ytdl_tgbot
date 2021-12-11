@@ -1,0 +1,4 @@
+TgCrypto
+Pyrogram
+yt_dlp
+hachoir
