@@ -7,6 +7,12 @@ from ytdlbot import Config
 
 logger = logging.getLogger(__name__)
 
+logger.info(f"{Config.APP_ID}")
+logger.info(f"{Config.API_HASH}")
+logger.info(f"{Config.BOT_TOKEN}")
+print(f"{Config.APP_ID}")
+print(f"{Config.API_HASH}")
+print(f"{Config.BOT_TOKEN}")
 
 class YtDLBot(Client):
     def __init__(self):
