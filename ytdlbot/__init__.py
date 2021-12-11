@@ -15,7 +15,7 @@ user_time = {}
 
 
 class Config:
-    APP_ID = int(os.environ.get("APP_ID", 0))
+    APP_ID = os.environ.get("APP_ID")
     API_HASH = os.environ.get("API_HASH")
     BOT_TOKEN = os.environ.get("BOT_TOKEN")
     DOWNLOAD_DIR = os.environ.get("DOWNLOAD_DIR", "downloads")
