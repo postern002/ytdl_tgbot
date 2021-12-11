@@ -6,14 +6,14 @@ from pyrogram import Client
 from ytdlbot import Config
 
 logger = logging.getLogger(__name__)
-
+"""
 logger.info(f"{Config.APP_ID}")
 logger.info(f"{Config.API_HASH}")
 logger.info(f"{Config.BOT_TOKEN}")
 print(Config.APP_ID)
 print(Config.API_HASH)
 print(Config.BOT_TOKEN)
-
+"""
 class YtDLBot(Client):
     def __init__(self):
         name = self.__class__.__name__.lower()
